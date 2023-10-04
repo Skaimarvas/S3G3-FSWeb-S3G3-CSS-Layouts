@@ -1,1 +1,80 @@
 /* CSS stillerinizi buraya girin */
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  /* border: 1px solid lime; */
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+h1 {
+  margin-bottom: 5rem;
+}
+
+p {
+  text-align: center;
+}
+
+header nav {
+  margin-bottom: 5rem;
+}
+
+.container {
+  width: 100rem;
+  margin: 0 auto;
+  background-color: #dcd9d4;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    radial-gradient(
+      at 50% 0%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(0, 0, 0, 0.5) 50%
+    );
+  background-blend-mode: soft-light, screen;
+}
+
+.container ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.container a {
+  transition: 0.4s;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #6c757d;
+  border-radius: 1rem;
+  border: 0.2rem solid;
+  color: black;
+  box-shadow: 0 9px 19px 2px rgba(0, 0, 0, 0.4);
+}
+
+.container a:hover {
+  background-color: #28a745;
+}
+
+footer p {
+  text-align: center;
+}
+
+#whoami {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  object-position: top;
+  margin-top: 1rem;
+}
+
+.about-page {
+  background-color: #79ac78;
+  box-shadow: 0 9px 19px 2px rgba(0, 0, 0, 0.4);
+  padding: 0.2rem;
+}
