@@ -29,7 +29,7 @@ header nav {
 }
 
 .container {
-  width: 100rem;
+  width: 80rem;
   margin: 0 auto;
   background-color: #dcd9d4;
   background-image: linear-gradient(
@@ -74,7 +74,7 @@ main .container {
   background-color: #79ac78;
   box-shadow: 0 9px 19px 2px rgba(0, 0, 0, 0.4);
   border: 1px solid black;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .box-container p {
@@ -106,9 +106,14 @@ main .container {
   padding: 1rem;
 }
 
+.--paragraf-2 {
+  padding: 15rem 25rem;
+}
+
 footer {
   background-color: #bca37f;
   padding: 1.5rem;
+  margin-bottom: 0;
 }
 
 .foot-container ul {
