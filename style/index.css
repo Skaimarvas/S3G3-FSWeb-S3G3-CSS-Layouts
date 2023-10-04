@@ -7,6 +7,9 @@
   /* border: 1px solid lime; */
 }
 
+html {
+  font-size: 11px;
+}
 h1,
 h2 {
   text-align: center;
@@ -29,7 +32,7 @@ header nav {
 }
 
 .container {
-  width: 80rem;
+  width: 120rem;
   margin: 0 auto;
   background-color: #dcd9d4;
   background-image: linear-gradient(
@@ -75,6 +78,10 @@ main .container {
   box-shadow: 0 9px 19px 2px rgba(0, 0, 0, 0.4);
   border: 1px solid black;
   margin: 0.5rem;
+}
+.box-container img {
+  width: 18.8rem;
+  height: 25rem;
 }
 
 .box-container p {
