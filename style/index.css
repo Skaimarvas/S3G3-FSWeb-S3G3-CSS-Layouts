@@ -130,7 +130,9 @@ main .container {
 footer {
   background-color: #bca37f;
   padding: 1.5rem;
-  margin-bottom: 0;
+
+  width: 100%;
+  margin: 0 auto;
 }
 
 .foot-container ul {
@@ -160,5 +162,6 @@ footer p {
 
 footer div {
   width: 100%;
+  /* width: 120rem; */
   height: 100%;
 }
