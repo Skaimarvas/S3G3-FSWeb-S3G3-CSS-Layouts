@@ -1,7 +1,7 @@
 /* CSS stillerinizi buraya girin */
 @import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap");
 
-* {
+@media () * {
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
   /* border: 1px solid lime; */
