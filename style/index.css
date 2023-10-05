@@ -33,6 +33,7 @@ header nav {
 
 .container {
   width: 120rem;
+  /* width: 98%; */
   margin: 0 auto;
   background-color: #dcd9d4;
   background-image: linear-gradient(
@@ -50,6 +51,7 @@ header nav {
 
 .container ul {
   display: flex;
+  /* flex-wrap: wrap; */
   list-style: none;
   justify-content: center;
 }
@@ -71,14 +73,22 @@ header nav {
 
 main .container {
   display: flex;
+  /* flex-wrap: wrap; */
 }
 
 .box-container {
+  transition: 0.4s;
   background-color: #79ac78;
   box-shadow: 0 9px 19px 2px rgba(0, 0, 0, 0.4);
   border: 1px solid black;
   margin: 0.5rem;
 }
+
+.project:hover {
+  /* background-color: #d7e5ca; */
+  box-shadow: 0 9px 19px 2px #d7e5ca;
+}
+
 .box-container img {
   width: 18.8rem;
   height: 25rem;
